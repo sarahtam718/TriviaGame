@@ -8,10 +8,48 @@
     <title>Trivia Game</title>
   </head>
   <body>
+    <!-- store everything on the page in here -->
     <div id="bigContainer">
+      <!-- start button -->
       <button id="start">Start</button>
+      <!-- countdown timer -->
       <div id="timer"></div>
-      <div id="target"></div>
+      <!-- quiz area -->
+      <div id="target">
+        <!-- question -->
+        <h2>What is Sarah's hometown?</h2>
+        <!-- each radio button gets its own value, but each one per question has the same name - useful when pulling user's answers -->
+        <input type="radio" value="San Francisco" name="q1" />San Francisco
+        <input type="radio" value="Chicago" name="q1" />Chicago
+        <input type="radio" value="Portland" name="q1" />Portland
+        <input type="radio" value="Indianapolis" name="q1" />Indianapolis
+
+        <h2>What is Sarah's husband's name?</h2>
+        <input type="radio" value="John" name="q2" />John
+        <input type="radio" value="Joe" name="q2" />Joe
+        <input type="radio" value="Carlos" name="q2" />Carlos
+        <input type="radio" value="Andre" name="q2" />Andre
+
+        <h2>What neighborhood does Sarah live in?</h2>
+        <input type="radio" value="Lakeview" name="q3" />Lakeview
+        <input type="radio" value="Pullman" name="q3" />Pullman
+        <input type="radio" value="Pilsen" name="q3" />Pilsen
+        <input type="radio" value="West Loop" name="q3" />West Loop
+
+        <h2>Who is Sarah's favorite TA?</h2>
+        <input type="radio" value="Haddassah" name="q4" />Haddassah
+        <input type="radio" value="Arnab" name="q4" />Arnab
+        <input type="radio" value="Michael" name="q4" />Michael
+        <input type="radio" value="All of Them" name="q4" />All of Them
+
+        <h2>What was Sarah's previous job?</h2>
+        <input type="radio" value="Social Worker" name="q5" />Social Worker
+        <input type="radio" value="HR at Uber" name="q5" />HR at Uber
+        <input type="radio" value="Teacher" name="q5" />Teacher
+        <input type="radio" value="Marketing Associate" name="q5" />Marketing
+        Associate
+      </div>
+      <!-- done button -->
       <button id="submit">Done</button>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
