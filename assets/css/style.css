@@ -1,0 +1,29 @@
+body {
+  background-image: url("https://www.socwall.com/images/wallpapers/36882-1920x1280.jpg");
+  font-family: "Architects Daughter", cursive;
+  color: purple;
+}
+
+#bigContainer {
+  height: 700px;
+  width: 500px;
+  margin: auto;
+  background-color: bisque;
+  text-align: center;
+  padding-top: 20px;
+}
+
+button {
+  border: rgb(74, 236, 228);
+  color: white;
+  background-color: rgb(74, 236, 228);
+  padding: 10px 50px 10px 50px;
+  margin: auto;
+  font-family: "Architects Daughter", cursive;
+  font-weight: bold;
+}
+
+#timer {
+  line-height: 0.5;
+  color: lightsalmon;
+}
